@@ -1,0 +1,41 @@
+/* style.css */
+
+/* Element Selector */
+p {
+    color: #444;
+    line-height: 1.5;
+}
+
+/* Class Selector */
+.card {
+    background-color: #ffffff;
+    width: 80%; /* % for width/layout */
+    max-width: 400px;
+    padding: 20px; /* px for spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 auto; /* px for spacing */
+}
+
+/* ID Selector */
+#student-name {
+    color: #1a73e8;
+    margin-bottom: 15px;
+}
+
+/* Descendant Selector */
+.details p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+/* Button styling */
+button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
